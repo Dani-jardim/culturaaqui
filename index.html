@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Cultura Aqui - Cultura perto de você!</title>
+			<!-- favicon
+		============================================ -->		
+     <link rel="shortcut icon" type="image/x-icon" href="img/fav.png">
+	<!-- font Raleway link -->  
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,600,500,100,900,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,700,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+	
+	<!-- all css here -->
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/swipebox.css">		           
+	<!-- font-awesome.min CSS -->      
+	<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="css/helper.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="style.css">
+	<!-- style CSS -->          
+	<link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal menubg">
+		<div class="line"></div>
+		<div class="logo-box"><img src="img/logo2.png" alt="" /></div>
+		<div class="mainmenu">
+	
+			<div class="menu">
+				<ul>
+					<!-- <li><a href="shop-menu.html" class="close-panel"><i class="pe-7s-home pe-fw"></i>Início</a></li> -->
+					<li><a href="home.html" class="close-panel"><i class="pe-7s-home pe-fw"></i>Todos Eventos<span class="badge">8</span></a></li>
+					<li><a href="#" class="click-pages-menu"><i class="pe-7s-copy-file pe-fw"></i> Categorias<i class="pe-7s-angle-down"></i></a>
+						<ul class="pages-menu-show">
+							<li><a href="home.html" class="close-panel"><i class="pe-7s-leaf pe-fw"></i>Cinema</a></li>
+							<li><a href="home.html" class="close-panel"><i class="pe-7s-back-2 pe-fw"></i>Danças</a></li>
+							<li><a href="home.html" class="close-panel"><i class="pe-7s-next-2 pe-fw"></i>Exposição</a></li>
+							<li><a href="home.html" class="close-panel"><i class="pe-7s-unlock pe-fw"></i>Teatro</a></li>
+							<li><a href="home.html" class="close-panel"><i class="pe-7s-speaker pe-fw"></i>Saraus</a></li>
+						</ul>
+					</li>
+					<li><a href="checkout.html" class="close-panel"><i class="pe-7s-photo pe-fw"></i>Cadastre um evento</a></li>
+					<!-- <li><a href="setting.html" class="close-panel"><i class="pe-7s-portfolio pe-fw"></i>Meu Perfil</a></li> -->
+				
+					<li><a href="blog.html" class="close-panel"><i class="pe-7s-note pe-fw"></i> Sobre</a></li>
+					<li><a href="message-list.html" class="close-panel"><i class="pe-7s-video pe-fw"></i> Meus Eventos</a></li>
+					<li><a href="contact.html" class="close-panel"><i class="pe-7s-mail pe-fw"></i> Contato</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Menu end -->
+    </div>
+     <!-- Right panel with cover effect-->
+  
+	<!-- login screen  start-->
+	<div class="login-screen">
+	    <div class="view">
+	      <div class="page">
+	        <div class="page-content login-screen-content registerbody">
+				<div class="register-content">
+					<a href="#" class="close-login-screen floatright"><i class="fa fa-times"></i></a>
+					<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+					<div class="form-content-box">
+						<form action="#">
+							<div class="inputbox">
+								<i class="pe-7s-user pe-fw"></i>
+								<input type="text" name="name" id="name" placeholder="Username">
+							</div>
+							<div class="inputbox">
+								<i class="pe-7s-unlock pe-fw"></i>
+								<input type="password" name="password" placeholder="Password">
+							</div>
+
+								<div class="login-with">
+									<a href="#" class="open-login-screen button button-big goto">LOGIN</a>
+								</div>
+						
+							<!-- <div class="inputbox-button login-with">
+								<button class="button button-big button button-big goto" href="home.html">Log in</button>
+							</div>						 -->
+							
+							</div>
+						</form>
+						<div class="login-after-text">	
+							<div class="inputbox-button">
+								<a data-popup=".popup-forgetpass" class="open-popup"   href="#">Forget Password?</a>
+							</div>
+								<p>OR</p>
+							<div class="login-with">
+								<p>Login With</p>
+								<div class="login-withbox">
+									<a href="https://www.facebook.com" target="_blank" class="button button-big external"><img src="img/with-facebook.png" alt=""></a>
+								</div>
+								<div class="login-withbox">
+									<a href="https://www.google.com" target="_blank" class="button button-big external"><img src="img/with-gplus.png" alt=""> </a>
+								</div>
+								<a data-popup=".popup-register" class="close-login-screen open-popup" href="#">Or create an account</a>
+							</div>
+						</div>
+					</div>
+				</div>
+	        </div>
+	      </div>
+	    </div>
+	</div>
+  <!-- login screen  start-->
+	<!-- forget password  start-->
+	<div class="popup popup-forgetpass">
+		<div class="registerbody">
+			<div class="register-content">
+				<a href="#" class="close-popup floatright"><i class="fa fa-times"></i></a>
+				<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+				<div class="form-content-box">
+					<form action="#">
+						<div class="inputbox">
+							<i class="pe-7s-mail pe-fw"></i>
+							<input type="email" name="f-email" id="f-email" placeholder="Enter Your Email">
+						</div>
+						<div class="inputbox-button">
+							<button class="button button-big">Remember Me</button>
+						</div>						
+					</form>
+					<div class="login-after-text">	
+						<div class="inputbox-button">
+							<p> Don’t have an account? <a data-popup=".popup-register" class="close-login-screen open-popup" href="#">Sign Up</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- forget password  end-->
+	  <!-- resister popup start-->
+	<div class="popup popup-register">
+		<div class="registerbody">
+			<div class="register-content">
+				<a href="#" class="close-popup floatright"><i class="fa fa-times"></i></a>
+				<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+				<div class="form-content-box">
+					<form action="#">
+						<div class="inputbox">
+							<i class="pe-7s-user pe-fw"></i>
+							<input type="text" name="username" id="username" placeholder="Username">
+						</div>
+						<div class="inputbox">
+							<i class="pe-7s-mail pe-fw"></i>
+							<input type="email" name="email" placeholder="mail@ascar.com">
+						</div>
+						<div class="inputbox">
+							<i class="pe-7s-unlock pe-fw"></i>
+							<input type="password" name="password" placeholder="Password">
+						</div>
+						<div class="inputbox-button">
+							<button class="button button-big">Create Account</button>
+						</div>						
+					</form>
+					<div class="login-after-text">	
+						<div class="inputbox-button">
+							<p> Have an account? <a class="open-login-screen close-popup" href="#">Login</a></p>
+						</div>
+							<p>OR</p>
+						<div class="login-with">
+							<p>Login With</p>
+								<div class="login-withbox">
+									<a href="https://www.facebook.com" target="_blank" class="button button-big external"><img src="img/with-facebook.png" alt=""></a>
+								</div>
+								<div class="login-withbox">
+									<a href="https://www.google.com" target="_blank" class="button button-big external"><img src="img/with-gplus.png" alt=""> </a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div>
+	</div>
+  	<!-- resister popup start-->	
+  	<!-- social share popup start-->
+  		<div class="popup popup-social-share">
+		<div class="registerbody">
+			<a href="#" class="close-popup closebutton"><i class="fa fa-times"></i></a>
+		<div class="user-box"><img src="img/user.jpg" alt="" />
+			<h3>MS NEWAZ <br>UI Designer</h3>
+			<p>284 west California, USA</p>
+		</div>
+		<div class="mainmenu">
+			<div class="social-icone">
+				<ul>
+					<li><a href="https://www.facebook.com/" target="_blank" class="external"><img src="img/facebook2.png" alt=""><br>
+					10k Liked</a></li>
+					<li><a href="https://www.google.com.bd" target="_blank" class="external"><img src="img/twitter.png" alt=""><br>
+					20k follower</a></li>
+					<li><a href="https://www.youtube.com/" target="_blank" class="external"><img src="img/youtube.png" alt=""><br>
+					50k Subscriber</a></li>
+				</ul>
+			</div>
+			<div class="menu right-bar social-bg">
+				<div class="row">
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://www.facebook.com/" target="_blank" class="external"><img src="img/facebook.png" alt="">
+							<br>FACEBOOK</a>
+						</div>
+					</div>
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://twitter.com/" target="_blank" class="external"><img src="img/twitter2.png" alt=""><br>
+							TWITTER</a>
+						</div>
+					</div>
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://www.linkedin.com/" target="_blank" class="external"><img src="img/linkedin.png" alt=""><br>
+							LINKEDIN</a>
+						</div>
+					</div>
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://www.pinterest.com/" target="_blank" class="external"><img src="img/pintarest.png" alt=""><br>
+							PINTAREST</a>
+						</div>
+					</div>
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://www.instagram.com/" target="_blank" class="external"><img src="img/instagram.png" alt=""><br>
+							INSTAGRAM</a>
+						</div>
+					</div>
+					<div class="col-33">
+						<div class="right-menu">
+							<a href="https://www.youtube.com/" target="_blank" class="external"><img src="img/youtube2.png" alt=""><br>
+							YOUTUBE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		 </div>
+	</div>	
+
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+		<div class="view view-main">
+            <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+			<div class="pages navbar-through toolbar-through">
+			  <!-- Page, data-page contains page name-->
+				<div data-page="index" class="page">
+				<!-- Scrollable page content-->
+				    <div class="page-content">
+						<div class="registerbody">
+							<div class="register-content  index-page">
+								<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+								<div class="form-content-box">
+									<div class="login-after-text">
+										<h4>Bem vindo</h4>
+										<h5>Faça seu login ou cadastre-se<br></h5>
+										<div class="login-with">
+											<a href="#" class="open-login-screen button button-big goto">LOGIN</a>
+										</div>
+											<div class="login-with">
+												<a data-popup=".popup-register" class="close-login-screen open-popup button button-big goto " href="#">CADASTRE-SE</a>
+											</div>
+											<a href="home.html" class="button button-big goto">eeeentra</a>
+									</div>
+								</div>
+							</div>
+				 		</div>	
+			    	</div>
+				<!-- Page content end -->>
+				</div>
+        	</div>
+    	</div>
+    </div>
+    	
+	<!-- Js -->
+	<!-- jquery-1.11.3.min js -->         
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<!-- Path to Framework7 Library JS --> 
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!--jquery.swipebox js --> 
+    <script type="text/javascript" src="js/jquery.swipebox.js"></script>
+        <!--jquery.mixitup js -->  
+
+	<!-- Path to your app js --> 
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
